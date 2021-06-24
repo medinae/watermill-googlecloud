@@ -93,7 +93,7 @@ type SubscriberConfig struct {
 // FetchTopicProjectID returns the proper topic project ID to use.
 func (sc SubscriberConfig) FetchTopicProjectID() string {
 	if sc.TopicProjectID != "" {
-		return sc.ProjectID
+		return sc.TopicProjectID
 	}
 
 	return sc.ProjectID
