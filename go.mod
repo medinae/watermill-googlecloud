@@ -1,4 +1,4 @@
-module github.com/ThreeDotsLabs/watermill-googlecloud
+module github.com/medinae/watermill-googlecloud
 
 go 1.12
 
